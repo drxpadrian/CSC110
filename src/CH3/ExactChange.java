@@ -13,7 +13,7 @@ public class ExactChange {
         Scanner scan = new Scanner(System.in);
 
 
-        System.out.println("Enter an integer amount: ");
+        System.out.println("Enter a number of pennies ");
         input = scan.nextInt();
 
 
@@ -29,7 +29,7 @@ public class ExactChange {
             input = input % 10;
             nickels = (input / 5);
             input = input % 5;
-            pennies = (input / 1);
+            pennies = (input);
 
             //Dollars
             if (dollars == 1) {
