@@ -13,7 +13,7 @@ public class IncomeTax {
         annualSalary = scnr.nextInt();
 
         // Determine the tax rate from the annual salary
-        // FIXME: Write code to address the challenge question above
+
         if (annualSalary <= 20000) {
             taxRate = 0.10;
         }

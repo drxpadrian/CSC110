@@ -12,10 +12,8 @@ public class ExactChange {
         int pennies;
         Scanner scan = new Scanner(System.in);
 
-
         System.out.println("Enter a number of pennies ");
         input = scan.nextInt();
-
 
         if (input <= 0) {
             System.out.println("No change");
