@@ -38,7 +38,6 @@ public class CinemaTicketCalculator {
         fullTicketPrice = scnr.nextDouble();
 
         //Calculate and display the ticket price
-
         if (age < 5) {
             ticketPrice = 0.0;
             System.out.println("Your ticket price is " + fmtC.format(ticketPrice) + " which is free!");
