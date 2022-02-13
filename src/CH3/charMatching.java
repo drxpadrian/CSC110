@@ -13,7 +13,5 @@ public class charMatching {
         stringSize = userInput.length();
 
         System.out.println("Size of userInput: " + stringSize);
-
-        
     }
 }
