@@ -3,13 +3,10 @@ package CH2;
 public class TestClass {
     public static void main(String[] args) {
 
-        String word1 = "Carrots";
-
-        if ( word1.equals("carrots") )
-            System.out.println("The student likes carrots");
-        else
-            System.out.println("The student likes apples");
-
-
+        int i = 0;
+        for (i = 0; i < 5; i++)
+        {
+            System.out.println("Java is cool.");
+        }
     }
 }
