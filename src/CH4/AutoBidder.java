@@ -17,7 +17,7 @@ public class AutoBidder {
             System.out.print("Continue bidding? (y/n) ");
             keepBidding = scnr.next().charAt(0);
         }
-        System.out.println("");
+        System.out.println();
     }
 }
 

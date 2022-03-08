@@ -16,6 +16,6 @@ public class CountToLimit {
             System.out.print(printVal + " ");
             printVal = printVal + 1;
         } while (printVal <= countLimit);
-        System.out.println("");
+        System.out.println();
     }
 }

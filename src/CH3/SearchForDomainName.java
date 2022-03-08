@@ -39,12 +39,7 @@ public class SearchForDomainName {
         else if (searchName.compareTo(coreGtld3) == 0) {
             isCoreGtld = true;
         }
-        else if (searchName.compareTo(coreGtld4) == 0) {
-            isCoreGtld = true;
-        }
-        else {
-            isCoreGtld = false;
-        }
+        else isCoreGtld = searchName.compareTo(coreGtld4) == 0;
 
         System.out.print("The name \"" + inputName + "\" ");
         if (isCoreGtld) {

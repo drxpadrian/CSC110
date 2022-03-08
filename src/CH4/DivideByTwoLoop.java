@@ -14,6 +14,6 @@ public class DivideByTwoLoop {
             System.out.print(userNum + " ");
         }
 
-        System.out.println("");
+        System.out.println();
     }
 }

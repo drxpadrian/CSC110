@@ -21,7 +21,7 @@ public class LabTwo {
             for (i = num1; i <= num2; i = i + 5) {
                 System.out.print(i + " ");
             }
-            System.out.println("");
+            System.out.println();
         }
     }
 }

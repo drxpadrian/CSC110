@@ -34,7 +34,7 @@ public class UsernameGenerator {
         System.out.println("Enter your birth year: ");
         birthYear = scan.nextLine();
 
-        System.out.println("");
+        System.out.println();
 
         System.out.println("Here are two possible usernames generated for you: ");
 
